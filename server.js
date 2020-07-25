@@ -1,5 +1,5 @@
 'use strict';
-// // require('dotenv').config();
+require('dotenv').config();
 
 const express = require('express');
 const server = express();
@@ -11,7 +11,7 @@ server.use(express.urlencoded({
     extended: true
 }));
 
-const PORT = 3030;
+const PORT = process.env.PORT || 3000;
 
 server.get('/', (req, res) => {
     res.render('/index');
