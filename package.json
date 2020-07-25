@@ -1,5 +1,5 @@
 {
-    "name": "create-company-test",
+    "name": "sign-up",
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
@@ -9,15 +9,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/laith-2020/create-company-test.git"
+        "url": "git+https://github.com/laith-2020/sign-up.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/laith-2020/create-company-test/issues"
+        "url": "https://github.com/laith-2020/sign-up/issues"
     },
-    "homepage": "https://github.com/laith-2020/create-company-test#readme",
+    "homepage": "https://github.com/laith-2020/sign-up#readme",
     "dependencies": {
         "axios": "^0.19.2",
         "dotenv": "^8.2.0",
