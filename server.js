@@ -27,11 +27,11 @@ function sendCompanyData(req, res) {
             console.log(result);
             if (result) {
                 res.status(200).send('Thank you for sign up');
-                alert("Thank you for sign up");
+                // alert("Thank you for sign up");
 
             } else {
                 res.status(404).send('faild to sign up try again');
-                alert("EROOR 404 FAILD TO SIGN UP");
+                // alert("EROOR 404 FAILD TO SIGN UP");
             }
 
         })
